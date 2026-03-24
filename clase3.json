@@ -1,0 +1,10 @@
+{
+    "id_producto":1,
+    "nombre":"Manzana",
+    "precio":1500,
+    "categoria":"Fuji",
+    "descripcion":"Fundo del carmen"
+}
+
+insert into producto(id_producto,nombre,precio,categoria,descripcion)
+values (1,"Manzana",1500,"Fuji","Fundo del carmen")
