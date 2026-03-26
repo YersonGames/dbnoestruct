@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Toño",
+        "especie": "Zorro",
+        "raza": "Culpeo",
+        "edad": "2 años",
+        "sexo": "M",
+        "peso": "8 kilos",
+        "dueño": {
+            "nombre": "Brayan",
+            "contacto": "+56901743895",
+            "direccion": {
+                "calle": "San Juan",
+                "numero": 456
+            }
+        }
+    },
+    {
+        "nombre": "Tom",
+        "especie": "Gato",
+        "raza": "Bobtail",
+        "edad": "4 años",
+        "sexo": "H",
+        "peso": "5 kilos",
+        "dueño": {
+            "nombre": "Maycol",
+            "contacto": "+56971238648",
+            "direccion": {
+                "calle": "Diego Portales",
+                "numero": 3843
+            }
+        }
+    },
+    {
+        "nombre": "Philips",
+        "especie": "Perro",
+        "raza": "Quiltro",
+        "edad": "6 años",
+        "sexo": "M",
+        "peso": "32 kilos",
+        "dueño": {
+            "nombre": "Jose Jose",
+            "contacto": "+569978512956",
+            "direccion": {
+                "calle": "9 de julio",
+                "numero": 824
+            }
+        }
+    }
+]

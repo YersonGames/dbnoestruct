@@ -1,0 +1,28 @@
+[
+        
+    {
+        "rut": "222-2",
+        "nombre": "Jose",
+        "apellido": "Calfumir",
+        "cargo": "Veterinario",
+        "sueldo": 600000,
+        "contacto": "+56912345678"
+    },
+    {
+        "rut": "333-3",
+        "nombre": "Mayra",
+        "apellido": "Muñoz",
+        "cargo": "Cirujano",
+        "sueldo": 1200000,
+        "contacto": "+56987654321"
+    },
+    {
+        "rut": "444-4",
+        "nombre": "Maria Jose",
+        "apellido": "Choroman",
+        "cargo": "Anestesista",
+        "sueldo": 800000,
+        "contacto": "+56998765432"
+    }
+
+]

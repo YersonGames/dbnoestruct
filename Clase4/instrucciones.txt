@@ -1,0 +1,15 @@
+Conteto > Veterinaria
+
+Entidades > Trabajadores    > rut, nombre, cargo, contacto, sueldo
+            Mascotas        > nombre, especie, raza, edad, sexo, peso, dueño
+            Procedimientos  > nombre, tipo, precio
+
+Base de Datos Documentales
+
+Base de Datos > Coleccion > Documento > Campos > subdocumentos
+
+
+DB - Veterinaria
+Colecciones > Trabajadores
+            > Mascotas
+            > Procedimientos

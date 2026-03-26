@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Vacuna",
+        "tipo": "Leucemia",
+        "precio" : 16000
+    },
+    {
+        "nombre": "Cirujia",
+        "tipo": "Castracion",
+        "precio" : 50000
+    },
+    {
+        "nombre": "Vacuna",
+        "tipo": "Eutanasia",
+        "precio" : 70000
+    }
+]
