@@ -1,0 +1,20 @@
+Caso de universidad
+
+Alumnos ->  rut,
+            nombre,
+            apellido,
+            seccion,
+            carrera,
+            asignatura: {   nombre:"BD no estructurada",
+                            notas: {
+                                n1: 4.0,
+                                n2: 5.6,
+                                n3: 6.3
+                            }
+            }
+
+Profesores
+Asignaturas
+Notas
+
+Salas

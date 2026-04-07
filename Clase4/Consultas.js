@@ -50,56 +50,59 @@ db.mascotas.insertOne(
                 "calle": "San Bernardo",
                 "numero": 5322
             }
-        }
+        }   
     }
 
 )
 
 db.mascotas.insertMany(
     [
-    {
-        "nombre": "Guppy",
-        "especie": "Gato",
-        "raza": "Bobtail",
-        "edad": "3 años",
-        "sexo": "M",
-        "peso": "3 kilos",
-        "dueño": {
-            "nombre": "Isaac",
-            "contacto": "+569738919345",
-            "direccion": {
-                "calle": "Los notros",
-                "numero": 894
+        {
+            "nombre": "Guppy",
+            "especie": "Gato",
+            "raza": "Bobtail",
+            "edad": "3 años",
+            "sexo": "M",
+            "peso": "3 kilos",
+            "dueño": {
+                "nombre": "Isaac",
+                "contacto": "+569738919345",
+                "direccion": {
+                    "calle": "Los notros",
+                    "numero": 894
+                }
+            }
+        },
+        {
+            "nombre": "Cricket",
+            "especie": "Perro",
+            "raza": "Akita",
+            "edad": "1 año",
+            "sexo": "H",
+            "peso": "4 kilos",
+            "dueño": {
+                "nombre": "Jamilton",
+                "contacto": "+56989427165",
+                "direccion": {
+                    "calle": "San Lucas",
+                    "numero": 1520
+                }
             }
         }
-    },
-    {
-        "nombre": "Cricket",
-        "especie": "Perro",
-        "raza": "Akita",
-        "edad": "1 año",
-        "sexo": "H",
-        "peso": "4 kilos",
-        "dueño": {
-            "nombre": "Jamilton",
-            "contacto": "+56989427165",
-            "direccion": {
-                "calle": "San Lucas",
-                "numero": 1520
-            }
-        }
-    }
     ]
 
 )
 
 //UPDATE
+
+//Actualiza el primero que encuentre
 db.mascotas.updateOne(
     {especie:"Gato"},
     {$set: 
         {especie: "Editado"}}
     )
 
+//Actualiza todos que encuentre
 db.mascotas.updateMany(
     {especie:"Gato"},
     {$set: 
@@ -113,9 +116,13 @@ db.mascotas.updateMany(
     )
 
 //DELETE
+
+//Borra el primero que encuentre
 db.mascotas.deleteOne(
     {nombre:"Guppy"}
 )
+
+//Borra todos que encuentre
 db.mascotas.deleteMany(
     {especie:"Gato"}
 )
