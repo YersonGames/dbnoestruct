@@ -67,7 +67,8 @@ db.alumnos.deleteMany({asignatura:"BD no estructurada"})´
 
 //Buscar mayor a 20 edad
 db.alumnos.find({
-    edad: {$gt:20}},
+    edad: {$gt:20}
+    },
     {edad:1,nombre:1,_id:0})
 
 //And
